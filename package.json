@@ -1,15 +1,18 @@
 {
   "name": "desafio-qa",
   "version": "1.0.0",
+  "type":"module",
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^28.0.1",
+    "@cucumber/cucumber": "^13.3.0",
+    "@cypress/webpack-preprocessor": "^8.0.0",
     "cypress": "^16.2.1"
   }
 }
